@@ -21,6 +21,6 @@ okButton.addEventListener("click", displayThankYouMessage);
 
 function displayThankYouMessage() {
   message.textContent = "THANK YOU FOR YOUR LIFE, HOME, AND CAR";
-  xButton.styles.display = none;
-  okButton.styles.display = none;
+  xButton.style.display = "none";
+  okButton.style.display = "none";
 }
